@@ -101,6 +101,15 @@
       </article>
   
     </div>
+
+    <a
+  href="https://calmafalda.com/services-details"
+  target="_blank"
+  rel="noopener noreferrer"
+  class="service-details-link"
+    >
+  read service details
+    </a>
   
   </section>
 
@@ -149,58 +158,120 @@
   <!------------------------------ contact ------------------------------->
   <section id="contact" class="contact">
 
-    <div class="contact-content">
+    <h2>Want to know more?</h2>
   
-      <div class="contact-text">
-        <p class="eyebrow">CONTACT</p>
+    <div class="contact-grid">
   
-        <h2>Want to know more?</h2>
-  
-        <p>
-          Have a question or want to know more about how I can help
-          you and your dog?
-        </p>
-  
-        <p>
-          Feel free to get in touch.
-        </p>
-      </div>
-  
+      <!-- Left: Contact Form -->
       <div class="contact-form">
   
         <div class="form-group">
-          <label for="name">Name</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Your name"
-          >
-        </div>
-  
-        <div class="form-group">
-          <label for="email">Email</label>
+          <label for="email">Email address *</label>
           <input
             type="email"
             id="email"
-            placeholder="Your email"
+            placeholder="Email address *"
           >
         </div>
   
         <div class="form-group">
-          <label for="message">Message</label>
+          <label for="phone">Phone number</label>
+          <input
+            type="tel"
+            id="phone"
+            placeholder="Phone number (optional)"
+          >
+        </div>
+  
+        <div class="form-group">
+          <label for="name">Name *</label>
+          <input
+            type="text"
+            id="name"
+            placeholder="Name *"
+          >
+        </div>
+  
+        <div class="form-group">
+          <label for="dogs">Dog(s) name(s)</label>
+          <input
+            type="text"
+            id="dogs"
+            placeholder="Dog(s) name(s)"
+          >
+        </div>
+  
+        <div class="form-group">
+          <label for="message">Message *</label>
           <textarea
             id="message"
             rows="6"
-            placeholder="Your message"
+            placeholder="Message *"
           ></textarea>
         </div>
   
         <button type="button" class="submit-button">
-          Send message
+          contact me
         </button>
+  
+      </div>
+  
+  
+      <!-- Right: Google Map -->
+      <div class="contact-map">
+  
+        <iframe
+          src="https://www.google.com/maps?q=39.1605200,-8.7876082&z=13&output=embed"
+          width="100%"
+          height="400"
+          style="border:0;"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
   
       </div>
   
     </div>
   
   </section>
+
+  <!------------------------------ closing-section ------------------------------->
+
+  <section class="closing-section">
+
+    <img
+      src="https://calmafalda.com/wp-content/uploads/2025/01/IMG_20241230_144053-scaled.jpg"
+      alt="Dog resting comfortably"
+    >
+  
+    <div class="closing-text">
+      <h2>
+        understanding dogs, enriching lives,
+        building harmony together.
+      </h2>
+  
+      <p>
+        discover your dog's true language
+      </p>
+    </div>
+  
+  </section>
+
+
+    <!------------------------------ Footer ------------------------------->
+    <footer class="footer">
+
+        <div class="footer-logo">
+          calmafalda
+        </div>
+      
+        <a routerLink="/" fragment="services">
+          Services
+        </a>
+      
+        <p>
+          © 2026 calmafalda
+        </p>
+      
+      </footer>
