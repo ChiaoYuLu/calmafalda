@@ -1,0 +1,77 @@
+.about-page {
+    min-height: 100vh;
+    background-color: #042f2e;
+    color: white;
+    padding: 100px 8%;
+  }
+  
+  .about-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .about-intro h1 {
+    font-size: 48px;
+    margin: 0 0 40px;
+  }
+  
+  .about-intro p,
+  .about-classes p,
+  .about-summit p,
+  .about-final p {
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 25px;
+  }
+  
+  .about-page a {
+    color: #ff9a24;
+  }
+  
+  .about-classes,
+  .about-summit {
+    margin-top: 70px;
+  }
+  
+  .about-classes h2,
+  .about-summit h2 {
+    font-size: 30px;
+    margin-bottom: 25px;
+  }
+  
+  .about-classes ul {
+    padding-left: 25px;
+  }
+  
+  .about-classes li {
+    margin-bottom: 20px;
+    line-height: 1.7;
+  }
+  
+  .about-classes strong {
+    display: block;
+    font-style: italic;
+  }
+  
+  .speaker {
+    margin-top: 30px;
+  }
+  
+  .speaker p {
+    margin-bottom: 8px;
+  }
+  
+  .speaker em {
+    font-style: italic;
+  }
+  
+  .about-final {
+    margin-top: 70px;
+    padding-top: 40px;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .about-final p {
+    font-size: 18px;
+    font-style: italic;
+  }

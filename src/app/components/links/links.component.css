@@ -1,0 +1,41 @@
+.links-page {
+    min-height: 100vh;
+    background-color: #d9d9d9;
+    color: #111;
+  
+    padding: 80px 8%;
+  }
+  
+  .links-container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .links-container h1 {
+    font-size: 32px;
+    margin: 0 0 30px;
+  }
+  
+  .links-intro {
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  
+  .links-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .links-list a {
+    width: fit-content;
+  
+    color: #a65a20;
+    font-size: 15px;
+  
+    text-decoration: underline;
+  }
+  
+  .links-list a:hover {
+    opacity: 0.7;
+  }
