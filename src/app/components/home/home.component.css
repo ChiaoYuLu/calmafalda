@@ -63,6 +63,8 @@
 
   .services {
     padding: 80px 5%;
+    background-color: white;
+    color: #042f2e;
   }
   
   .services-header {
@@ -124,143 +126,194 @@
   }
 
   /*          reviews          */
-  .reviews {
-    padding: 100px 8%;
-    background-color: white;
-    color: #042f2e;
-  }
-  
-  .reviews-header {
-    text-align: center;
-    margin-bottom: 60px;
-  }
-  
-  .reviews-header h2 {
-    font-size: 42px;
-    margin: 10px 0 0;
-  }
-  
-  .reviews-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    max-width: 1100px;
-    margin: 0 auto;
-  }
-  
-  .review-card {
-    padding: 35px;
-    background-color: #f5f1e8;
-    border-radius: 4px;
-  }
-  
-  .review-text {
-    font-size: 16px;
-    line-height: 1.7;
-    font-style: italic;
-    margin: 0 0 25px;
-  }
-  
-  .review-author {
-    font-size: 14px;
-    font-weight: 600;
-    margin: 0;
-  }
+
+.reviews {
+
+  padding: 100px 8%;
+
+  background-color: #042f2e;
+
+  color: white;
+
+}
+
+.reviews-header {
+
+  text-align: center;
+
+  margin-bottom: 60px;
+
+}
+
+.reviews-header h2 {
+
+  font-size: 42px;
+
+  margin: 10px 0 0;
+
+  color: white;
+
+}
+
+.reviews-grid {
+
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+
+  max-width: 1100px;
+
+  margin: 0 auto;
+
+}
+
+.review-card {
+
+  padding: 35px;
+
+  background-color: #f5f1e8;
+
+  color: #042f2e;
+
+  border-radius: 4px;
+
+}
+
+.review-text {
+
+  font-size: 16px;
+
+  line-height: 1.7;
+
+  font-style: italic;
+
+  margin: 0 0 25px;
+
+  color: #042f2e;
+
+}
+
+.review-author {
+
+  font-size: 14px;
+
+  font-weight: 600;
+
+  margin: 0;
+
+  color: #042f2e;
+
+}
 
   
 /*          contact          */
+
 .contact {
-    padding: 80px 8%;
-    background-color: #005c57;
-    color: white;
-  }
-  
-  .contact > h2 {
-    text-align: center;
-    font-size: 32px;
-    margin: 0 0 40px;
-  }
-  
-  .contact-grid {
-    max-width: 1100px;
-    margin: 0 auto;
-  
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 30px;
-    align-items: start;
-  }
-  
-  .contact-form {
-    width: 100%;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  .form-group label {
-    display: none;
-  }
-  
-  .form-group input,
-  .form-group textarea {
-    width: 100%;
-    box-sizing: border-box;
-  
-    padding: 10px 12px;
-  
-    border: none;
-    border-radius: 0;
-  
-    font-family: inherit;
-    font-size: 12px;
-  }
-  
-  .form-group textarea {
-    resize: vertical;
-  }
-  
-  .submit-button {
-    padding: 10px 20px;
-  
-    border: none;
-    border-radius: 2px;
-  
-    background-color: #ff8a00;
-    color: #042f2e;
-  
-    font-size: 12px;
-    cursor: pointer;
-  }
-  
-  .submit-button:hover {
-    opacity: 0.85;
-  }
-  
-  .contact-map {
-    width: 100%;
-  }
-  
-  .contact-map iframe {
-    display: block;
-    width: 100%;
-    height: 400px;
-  }
+  padding: 80px 8%;
+  background-color: white;
+  color: #042f2e;
+}
+
+.contact > h2 {
+  text-align: center;
+  font-size: 32px;
+  margin: 0 0 40px;
+  color: #042f2e;
+}
+
+.contact-grid {
+  max-width: 1100px;
+  margin: 0 auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.contact-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  display: none;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 10px 12px;
+
+  border: 1px solid #042f2e;
+  border-radius: 0;
+
+  background-color: white;
+  color: #042f2e;
+
+  font-family: inherit;
+  font-size: 12px;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: #4f5f5e;
+  opacity: 1;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 2px;
+
+  background-color: #ff8a00;
+  color: #042f2e;
+
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.submit-button:hover {
+  opacity: 0.85;
+}
+
+.contact-map {
+  width: 100%;
+}
+
+.contact-map iframe {
+  display: block;
+  width: 100%;
+  height: 400px;
+}
 
 
   /*          closing-section         */
 
   .closing-section {
-    background-color: #f5f1e8;
-    color: #042f2e;
+    width: 100%;
+    overflow: hidden;
   }
   
   .closing-section img {
     display: block;
     width: 100%;
-    height: 360px;
+    height: 150px;
     object-fit: cover;
+    object-position: center;
   }
   
   .closing-text {
@@ -283,8 +336,8 @@
 
   .footer {
     padding: 45px 8%;
-    background-color: white;
-    color: #042f2e;
+    background-color: #042f2e;
+    color: white;
   }
   
   .footer-logo {
@@ -294,7 +347,7 @@
   }
   
   .footer a {
-    color: #042f2e;
+    color: white;
     text-decoration: none;
     font-size: 13px;
   }

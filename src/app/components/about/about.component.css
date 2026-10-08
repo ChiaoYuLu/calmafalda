@@ -75,3 +75,131 @@
     font-size: 18px;
     font-style: italic;
   }
+
+  .about-image {
+    margin-bottom: 15px;
+  }
+  
+  .about-image img {
+    display: block;
+    width: 400px;
+    height: auto;
+  }
+
+  /* =========================
+   Certificate
+========================= */
+
+.about-certificate {
+  background-color: #005b57;
+  padding: 20px 0;
+}
+
+.certificate-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.certificate-container img {
+  width: 142px;
+  height: auto;
+  display: block;
+}
+
+
+/* =========================
+   Qualification logos
+========================= */
+
+.about-qualifications {
+  background-color: #003f3d;
+  padding: 28px 0;
+}
+
+.qualification-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.qualification-logos img {
+  width: 68px;
+  height: 52px;
+  object-fit: contain;
+  background-color: white;
+  display: block;
+}
+
+
+/* =========================
+   Languages
+========================= */
+
+.about-languages {
+  background-color: #d9d9d9;
+  padding: 20px 4%;
+}
+
+.languages-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.languages-image {
+  width: 50%;
+}
+
+.languages-image img {
+  width: 100%;
+  max-width: 205px;
+  height: auto;
+  display: block;
+}
+
+.languages-text {
+  width: 50%;
+  text-align: right;
+  color: #111;
+}
+
+.languages-text h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+
+.languages-text p {
+  font-size: 8px;
+  line-height: 1.5;
+  margin: 5px 0;
+}
+
+
+/* =========================
+   Mobile
+========================= */
+
+@media (max-width: 768px) {
+
+  .languages-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .languages-image,
+  .languages-text {
+    width: 100%;
+  }
+
+  .languages-text {
+    text-align: center;
+  }
+
+  .languages-image img {
+    margin: 0 auto;
+  }
+
+}
