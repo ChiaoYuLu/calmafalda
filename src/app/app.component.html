@@ -1,5 +1,19 @@
-<app-navbar> </app-navbar>
 
-<main>
-  <router-outlet></router-outlet>
-</main>
+<!-- Navigation -->
+<app-navbar></app-navbar>
+
+<!-- Different page content -->
+<router-outlet></router-outlet>
+
+<!-- Shared Footer -->
+<footer class="site-footer">
+  <a routerLink="/" class="footer-logo">calmafalda</a>
+
+  <a routerLink="/" fragment="services-1" class="footer-link">
+    Services
+  </a>
+
+  <p class="footer-copyright">
+    © 2026 calmafalda
+  </p>
+</footer>

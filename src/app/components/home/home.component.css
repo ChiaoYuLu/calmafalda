@@ -301,58 +301,59 @@
 }
 
 
-  /*          closing-section         */
+  
+/* =========================
+   Closing Section
+========================= */
 
-  .closing-section {
-    width: 100%;
-    overflow: hidden;
-  }
-  
-  .closing-section img {
-    display: block;
-    width: 100%;
-    height: 150px;
-    object-fit: cover;
-    object-position: center;
-  }
-  
+.closing-section {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* Show the complete dog photo */
+.closing-section img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+/* Closing slogan background */
+.closing-text {
+  background-color: #d9d9d9;
+  color: #042f2e;
+  text-align: center;
+  padding: 45px 20px;
+  box-sizing: border-box;
+}
+
+.closing-text h2 {
+  max-width: 700px;
+  margin: 0 auto 20px;
+  font-size: 28px;
+  line-height: 1.4;
+  font-weight: 600;
+}
+
+.closing-text p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
   .closing-text {
-    text-align: center;
-    padding: 60px 20px;
+    padding: 35px 18px;
   }
-  
+
   .closing-text h2 {
-    max-width: 700px;
-    margin: 0 auto 25px;
-    font-size: 32px;
-    line-height: 1.3;
+    font-size: 23px;
   }
-  
+
   .closing-text p {
-    font-size: 13px;
-  }
-
-    /*          footer         */
-
-  .footer {
-    padding: 45px 8%;
-    background-color: #042f2e;
-    color: white;
-  }
-  
-  .footer-logo {
-    font-size: 22px;
-    font-weight: 600;
-    margin-bottom: 25px;
-  }
-  
-  .footer a {
-    color: white;
-    text-decoration: none;
-    font-size: 13px;
-  }
-  
-  .footer p {
     font-size: 12px;
-    margin-top: 25px;
   }
+}
