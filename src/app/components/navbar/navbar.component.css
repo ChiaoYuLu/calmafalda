@@ -13,6 +13,10 @@
     background-color: #042f2e;
   }
   
+  nav a {
+   text-transform: capitalize;
+  }
+
   .logo {
     color: white;
     text-decoration: none;
