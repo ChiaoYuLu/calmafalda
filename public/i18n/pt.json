@@ -7,6 +7,21 @@
     "links": "Ligações",
     "contact": "Contactos"
   },
+
+  
+"links": {
+  "title": "Ligações",
+  "intro": "Profissionais e Recursos de Referência sobre Cães",
+  "turid": "Turid Rugaas - Treinadora Internacional de Cães",
+  "nordic": "Nordic Dog Training - Recursos Gratuitos - Blogue",
+  "smilingLeash": "Smiling Leash Project - Blogue",
+  "slowDog": "Slow Dog Movement - Saiba Mais",
+  "freedogz": "FreeDogz.be - Informação sobre Peitorais",
+  "galen": "Galen Myotherapy - Massagem Canina / Biomecânica / Reabilitação",
+  "amberBatson": "Dr. Amber Batson - Médica Veterinária e Especialista em Comportamento - Canine Arthritis Management",
+  "kateryna": "Kateryna Volkova - Learn to Observe Dogs - Canal do YouTube"
+},
+
   
 "gallery": {
   "title": "Memórias de Amigos",

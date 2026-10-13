@@ -8,6 +8,20 @@
     "links": "Links",
     "contact": "Contact me"
   },
+ 
+"links": {
+  "title": "Links",
+  "intro": "Recommended Dog Professionals and Resources",
+  "turid": "Turid Rugaas - International Dog Trainer",
+  "nordic": "Nordic Dog Training - Free Resources - Blog",
+  "smilingLeash": "Smiling Leash Project - Blog",
+  "slowDog": "Slow Dog Movement - Learn More",
+  "freedogz": "FreeDogz.be - Harness Information",
+  "galen": "Galen Myotherapy - Dog Massage / Biomechanics / Rehabilitation",
+  "amberBatson": "Dr Amber Batson - Veterinary Surgeon and Behaviourist - Canine Arthritis Management",
+  "kateryna": "Kateryna Volkova - Learn to Observe Dogs - YouTube Channel"
+},
+
   
 "gallery": {
   "title": "Memories of Friends",
