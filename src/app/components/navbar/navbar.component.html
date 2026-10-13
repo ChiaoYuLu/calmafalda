@@ -1,24 +1,50 @@
 <nav class="navbar">
 
-    <a routerLink="/" class="logo">
-      calmafalda
+  <a routerLink="/" class="logo">
+    calmafalda
+  </a>
+
+  <div class="nav-links">
+    <a routerLink="/" fragment="services">
+      {{ 'nav.services' | translate }}
     </a>
-  
-    <div class="nav-links">
-      <a routerLink="/" fragment="services">services</a>
-      <a routerLink="/" fragment="reviews">reviews</a>
-      <a routerLink="/about">about me</a>
-      <a routerLink="/gallery">gallery</a>
-      <a routerLink="/links">links</a>
-      <a routerLink="/" fragment="contact" class="contact-button">
-        contact me
-      </a>
-    </div>
-  
-    <div class="language-selector">
-      <button>EN</button>
-      <span>|</span>
-      <button>PT</button>
-    </div>
-  
-  </nav>
+
+    <a routerLink="/" fragment="reviews">
+      {{ 'nav.reviews' | translate }}
+    </a>
+
+    <a routerLink="/about">
+      {{ 'nav.about' | translate }}
+    </a>
+
+    <a routerLink="/gallery">
+      {{ 'nav.gallery' | translate }}
+    </a>
+
+    <a routerLink="/links">
+      {{ 'nav.links' | translate }}
+    </a>
+
+    <a routerLink="/" fragment="contact" class="contact-button">
+      {{ 'nav.contact' | translate }}
+    </a>
+  </div>
+
+  <div class="language-selector">
+    <button
+      type="button"
+      (click)="changeLanguage('en')"
+      [class.active]="false">
+      EN
+    </button>
+
+    <span>|</span>
+
+    <button
+      type="button"
+      (click)="changeLanguage('pt')">
+      PT
+    </button>
+  </div>
+
+</nav>

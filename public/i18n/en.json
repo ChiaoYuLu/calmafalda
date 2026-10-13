@@ -1,0 +1,14 @@
+
+{
+  "nav": {
+    "services": "Services",
+    "reviews": "Reviews",
+    "about": "About me",
+    "gallery": "Gallery",
+    "links": "Links",
+    "contact": "Contact me"
+  },
+  "about": {
+    "title": "Mafalda Amaro"
+  }
+}
