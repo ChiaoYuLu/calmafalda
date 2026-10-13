@@ -10,5 +10,81 @@
   },
   "about": {
     "title": "Mafalda Amaro"
+  },
+  "home": {
+    "hero": {
+      "title": "Harmonious Living with Dogs",
+      "intro1": "Welcome to Calmafalda, where I help dogs and their caregivers thrive through respectful communication and enriched environments, attending to each individual dog's needs.",
+      "intro2": "Discover ethical, force-free guidance, adequate mental and physical stimulation and tailored advice for your furry friend. Struggling with behavioural issues? Let's reframe that together! It's never too late!",
+      "intro3a": "Learn what dogs are telling us.",
+      "intro3b": "Approach based on up-to-date scientific knowledge.",
+      "intro4": "All dog breeds and ages.",
+      "contact": "Contact me",
+      "imageAlt": "Harmonious living with dogs"
+    },
+    "services": {
+      "eyebrow": "SERVICES",
+      "title": "How can I help you?",
+      "intro": "Helping you better understand your dog and create a harmonious relationship together.",
+      "detailsLink": "Read service details",
+      "items": [
+        {
+          "title": "Understanding Dog Communication and Behaviour",
+          "description": "Learning to understand what your dog is communicating through their behaviour."
+        },
+        {
+          "title": "Enriched Environment",
+          "description": "Creating opportunities for dogs to explore, learn and feel comfortable in their surroundings."
+        },
+        {
+          "title": "Training Sessions",
+          "description": "Force-free training adapted to your dog's individual needs."
+        },
+        {
+          "title": "Dog Walking",
+          "description": "Individual walks adapted to your dog's needs."
+        },
+        {
+          "title": "Dog Sitting",
+          "description": "Caring for your dog in a familiar and respectful way."
+        },
+        {
+          "title": "Puppy Guidance and Support",
+          "description": "Support and guidance to help puppies and their caregivers get a good start."
+        },
+        {
+          "title": "Behaviour Problems",
+          "description": "Understanding behaviour and finding ways to support your dog and improve your relationship together."
+        },
+        {
+          "title": "Scenting - Nose Work",
+          "description": "Fun and enriching activities that allow dogs to use their natural sense of smell."
+        }
+      ]
+    },
+    "reviews": {
+      "eyebrow": "REVIEWS",
+      "title": "What people say",
+      "services": {
+        "dogWalking": "Dog Walking",
+        "homeVisits": "Home Visits",
+        "houseSitting": "House Sitting"
+      }
+    },
+    "contact": {
+      "title": "Want to know more?",
+      "email": "Email address *",
+      "phone": "Phone number",
+      "phonePlaceholder": "Phone number (optional)",
+      "name": "Name *",
+      "dogs": "Dog(s) name(s)",
+      "message": "Message *",
+      "submit": "Contact me"
+    },
+    "closing": {
+      "imageAlt": "Dog resting comfortably",
+      "title": "Understanding dogs, enriching lives, building harmony together.",
+      "subtitle": "Discover your dog's true language"
+    }
   }
 }

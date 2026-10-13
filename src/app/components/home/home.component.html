@@ -1,232 +1,134 @@
+```html
+<!-- Hero -->
 <section class="hero">
+  <div class="hero-content">
+    <h1>{{ 'home.hero.title' | translate }}</h1>
 
-    <div class="hero-content">
-  
-      <h1>Harmonious Living with Dogs</h1>
-  
-      <p>
-        Welcome to Calmafalda, where I help dogs and their caregivers
-        thrive through respectful communication and enriched environments,
-        attending to each individual dog's needs.
-      </p>
-  
-      <p>
-        Discover ethical, force-free guidance, adequate mental and physical
-        stimulation and tailored advice for your furry friend.
-        Struggling with behavioural issues? Let's reframe that together!
-        It's never too late!
-      </p>
-  
-      <p>
-        Learn what dogs are telling us.
-        <br>
-        Approach based on up to date scientific knowledge.
-      </p>
-  
-      <p>
-        All dog breeds and ages.
-      </p>
-  
-      <a routerLink="/" fragment="contact" class="hero-button">
-        contact me
-      </a>
-  
-    </div>
-  
-    <div class="hero-image">
-      <img
-          src="images/home/harmonious-living-with-dogs.webp"
-          alt="Harmonious living with dogs"
-      >
-    </div>
-  
-  </section>
+    <p>{{ 'home.hero.intro1' | translate }}</p>
 
-
-<!------------------------------ services ------------------------------>
-
-<section id="services" class="services">
-
-  <div class="services-header">
-    <p class="eyebrow">SERVICES</p>
-
-    <h2>How can I help you?</h2>
+    <p>{{ 'home.hero.intro2' | translate }}</p>
 
     <p>
-      Helping you better understand your dog and create a harmonious
-      relationship together.
+      {{ 'home.hero.intro3a' | translate }}
+      <br>
+      {{ 'home.hero.intro3b' | translate }}
     </p>
+
+    <p>{{ 'home.hero.intro4' | translate }}</p>
+
+    <a routerLink="/" fragment="contact" class="hero-button">
+      {{ 'home.hero.contact' | translate }}
+    </a>
   </div>
 
+  <div class="hero-image">
+    <img
+      src="images/home/harmonious-living-with-dogs.webp"
+      [alt]="'home.hero.imageAlt' | translate"
+    >
+  </div>
+</section>
+
+<!-- Services -->
+<section id="services" class="services">
+  <div class="services-header">
+    <p class="eyebrow">{{ 'home.services.eyebrow' | translate }}</p>
+    <h2>{{ 'home.services.title' | translate }}</h2>
+    <p>{{ 'home.services.intro' | translate }}</p>
+  </div>
 
   <div class="services-grid">
-
-    <!-- 01 Understanding dog communication and behaviour -->
     <article class="service-card">
-
       <img
         src="images/services/01-understanding dog communication and behaviour.webp"
-        alt="Understanding dog communication and behaviour"
+        [alt]="'home.services.items.0.title' | translate"
       >
-
-      <h3>Understanding Dog Communication and Behaviour</h3>
-
-      <p>
-        Learning to understand what your dog is communicating
-        through their behaviour.
-      </p>
-
+      <h3>{{ 'home.services.items.0.title' | translate }}</h3>
+      <p>{{ 'home.services.items.0.description' | translate }}</p>
     </article>
 
-
-    <!-- 02 Enriched environment -->
     <article class="service-card">
-
       <img
         src="images/services/02-enriched environment.webp"
-        alt="Enriched environment"
+        [alt]="'home.services.items.1.title' | translate"
       >
-
-      <h3>Enriched Environment</h3>
-
-      <p>
-        Creating opportunities for dogs to explore, learn and
-        feel comfortable in their surroundings.
-      </p>
-
+      <h3>{{ 'home.services.items.1.title' | translate }}</h3>
+      <p>{{ 'home.services.items.1.description' | translate }}</p>
     </article>
 
-
-    <!-- 03 Training sessions -->
     <article class="service-card">
-
       <img
         src="images/services/03-training sessions.webp"
-        alt="Training sessions"
+        [alt]="'home.services.items.2.title' | translate"
       >
-
-      <h3>Training Sessions</h3>
-
-      <p>
-        Force-free training adapted to your dog's individual needs.
-      </p>
-
+      <h3>{{ 'home.services.items.2.title' | translate }}</h3>
+      <p>{{ 'home.services.items.2.description' | translate }}</p>
     </article>
 
-
-    <!-- 04 Dog walking -->
     <article class="service-card">
-
       <img
         src="images/services/04-dog walking.webp"
-        alt="Dog walking"
+        [alt]="'home.services.items.3.title' | translate"
       >
-
-      <h3>Dog Walking</h3>
-
-      <p>
-        Individual walks adapted to your dog's needs.
-      </p>
-
+      <h3>{{ 'home.services.items.3.title' | translate }}</h3>
+      <p>{{ 'home.services.items.3.description' | translate }}</p>
     </article>
 
-
-    <!-- 05 Dog sitting -->
     <article class="service-card">
-
       <img
         src="images/services/05-dog sitting.webp"
-        alt="Dog sitting"
+        [alt]="'home.services.items.4.title' | translate"
       >
-
-      <h3>Dog Sitting</h3>
-
-      <p>
-        Caring for your dog in a familiar and respectful way.
-      </p>
-
+      <h3>{{ 'home.services.items.4.title' | translate }}</h3>
+      <p>{{ 'home.services.items.4.description' | translate }}</p>
     </article>
 
-
-    <!-- 06 Puppy guidance and support -->
     <article class="service-card">
-
       <img
         src="images/services/06-puppy guidance and support.avif"
-        alt="Puppy guidance and support"
+        [alt]="'home.services.items.5.title' | translate"
       >
-
-      <h3>Puppy Guidance and Support</h3>
-
-      <p>
-        Support and guidance to help puppies and their caregivers
-        get a good start.
-      </p>
-
+      <h3>{{ 'home.services.items.5.title' | translate }}</h3>
+      <p>{{ 'home.services.items.5.description' | translate }}</p>
     </article>
 
-
-    <!-- 07 Behaviour problems -->
     <article class="service-card">
-
       <img
         src="images/services/07-behaviour problems.avif"
-        alt="Behaviour problems"
+        [alt]="'home.services.items.6.title' | translate"
       >
-
-      <h3>Behaviour Problems</h3>
-
-      <p>
-        Understanding behaviour and finding ways to support your dog
-        and improve your relationship together.
-      </p>
-
+      <h3>{{ 'home.services.items.6.title' | translate }}</h3>
+      <p>{{ 'home.services.items.6.description' | translate }}</p>
     </article>
 
-
-    <!-- 08 Scenting - nose work -->
     <article class="service-card">
-
       <img
         src="images/services/08-scenting - nose work.webp"
-        alt="Scenting and nose work"
+        [alt]="'home.services.items.7.title' | translate"
       >
-
-      <h3>Scenting - Nose Work</h3>
-
-      <p>
-        Fun and enriching activities that allow dogs to use
-        their natural sense of smell.
-      </p>
-
+      <h3>{{ 'home.services.items.7.title' | translate }}</h3>
+      <p>{{ 'home.services.items.7.description' | translate }}</p>
     </article>
-
   </div>
 
-
-  <!-- Service details link -->
   <a
     href="https://calmafalda.com/services-details"
     target="_blank"
     rel="noopener noreferrer"
     class="service-details-link"
   >
-    read service details
+    {{ 'home.services.detailsLink' | translate }}
   </a>
-
 </section>
 
-```html
-<!------------------------------ reviews ------------------------------->
+<!-- Reviews -->
 <section id="reviews" class="reviews">
-
   <div class="reviews-header">
-    <p class="eyebrow">REVIEWS</p>
-    <h2>What people say</h2>
+    <p class="eyebrow">{{ 'home.reviews.eyebrow' | translate }}</p>
+    <h2>{{ 'home.reviews.title' | translate }}</h2>
   </div>
 
   <div class="reviews-grid">
-
     <article class="review-card">
       <p class="review-text">
         "Super! Mafalda is een echte hondenvriend/
@@ -237,11 +139,9 @@
         over de uitstap. Ik ben zeer tevreden, en zou
         Mafalda aan iedereen aanraden!"
       </p>
-      <p class="review-author">
-        — Riet
-      </p>
+      <p class="review-author">— Riet</p>
       <p class="review-service">
-        Dog Walking · 17/09/2017
+        {{ 'home.reviews.services.dogWalking' | translate }} · 17/09/2017
       </p>
     </article>
 
@@ -251,11 +151,9 @@
         an amazing talent and empathy to look after
         any character due to their needs."
       </p>
-      <p class="review-author">
-        — Katharina
-      </p>
+      <p class="review-author">— Katharina</p>
       <p class="review-service">
-        Home Visits · 26/07/2019
+        {{ 'home.reviews.services.homeVisits' | translate }} · 26/07/2019
       </p>
     </article>
 
@@ -268,11 +166,9 @@
         knowledgeable in dog behaviour and can give
         some useful tips. Totally recommended!"
       </p>
-      <p class="review-author">
-        — Miri
-      </p>
+      <p class="review-author">— Miri</p>
       <p class="review-service">
-        House Sitting · 27/07/2026
+        {{ 'home.reviews.services.houseSitting' | translate }} · 27/07/2026
       </p>
     </article>
 
@@ -282,11 +178,9 @@
         kon zien dat Joli haar aan het
         Een aanrader !!!"
       </p>
-      <p class="review-author">
-        — Cristina
-      </p>
+      <p class="review-author">— Cristina</p>
       <p class="review-service">
-        Dog Walking · 02/06/2017
+        {{ 'home.reviews.services.dogWalking' | translate }} · 02/06/2017
       </p>
     </article>
 
@@ -296,121 +190,94 @@
         de kwetsbaarheden van mijn grootste hond.
         Top!"
       </p>
-      <p class="review-author">
-        — Bart
-      </p>
+      <p class="review-author">— Bart</p>
       <p class="review-service">
-        Home Visits · 04/06/2017
+        {{ 'home.reviews.services.homeVisits' | translate }} · 04/06/2017
       </p>
     </article>
-
   </div>
-
 </section>
 
+<!-- Contact -->
+<section id="contact" class="contact">
+  <h2>{{ 'home.contact.title' | translate }}</h2>
 
-  <!------------------------------ contact ------------------------------->
-  <section id="contact" class="contact">
+  <div class="contact-grid">
+    <div class="contact-form">
+      <div class="form-group">
+        <label for="email">{{ 'home.contact.email' | translate }}</label>
+        <input
+          type="email"
+          id="email"
+          [placeholder]="'home.contact.email' | translate"
+        >
+      </div>
 
-    <h2>Want to know more?</h2>
-  
-    <div class="contact-grid">
-  
-      <!-- Left: Contact Form -->
-      <div class="contact-form">
-  
-        <div class="form-group">
-          <label for="email">Email address *</label>
-          <input
-            type="email"
-            id="email"
-            placeholder="Email address *"
-          >
-        </div>
-  
-        <div class="form-group">
-          <label for="phone">Phone number</label>
-          <input
-            type="tel"
-            id="phone"
-            placeholder="Phone number (optional)"
-          >
-        </div>
-  
-        <div class="form-group">
-          <label for="name">Name *</label>
-          <input
-            type="text"
-            id="name"
-            placeholder="Name *"
-          >
-        </div>
-  
-        <div class="form-group">
-          <label for="dogs">Dog(s) name(s)</label>
-          <input
-            type="text"
-            id="dogs"
-            placeholder="Dog(s) name(s)"
-          >
-        </div>
-  
-        <div class="form-group">
-          <label for="message">Message *</label>
-          <textarea
-            id="message"
-            rows="6"
-            placeholder="Message *"
-          ></textarea>
-        </div>
-  
-        <button type="button" class="submit-button">
-          contact me
-        </button>
-  
+      <div class="form-group">
+        <label for="phone">{{ 'home.contact.phone' | translate }}</label>
+        <input
+          type="tel"
+          id="phone"
+          [placeholder]="'home.contact.phonePlaceholder' | translate"
+        >
       </div>
-  
-  
-      <!-- Right: Google Map -->
-      <div class="contact-map">
-  
-        <iframe
-          src="https://www.google.com/maps?q=39.1605200,-8.7876082&z=13&output=embed"
-          width="100%"
-          height="400"
-          style="border:0;"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade">
-        </iframe>
-  
+
+      <div class="form-group">
+        <label for="name">{{ 'home.contact.name' | translate }}</label>
+        <input
+          type="text"
+          id="name"
+          [placeholder]="'home.contact.name' | translate"
+        >
       </div>
-  
+
+      <div class="form-group">
+        <label for="dogs">{{ 'home.contact.dogs' | translate }}</label>
+        <input
+          type="text"
+          id="dogs"
+          [placeholder]="'home.contact.dogs' | translate"
+        >
+      </div>
+
+      <div class="form-group">
+        <label for="message">{{ 'home.contact.message' | translate }}</label>
+        <textarea
+          id="message"
+          rows="6"
+          [placeholder]="'home.contact.message' | translate"
+        ></textarea>
+      </div>
+
+      <button type="button" class="submit-button">
+        {{ 'home.contact.submit' | translate }}
+      </button>
     </div>
-  
-  </section>
 
-  <!------------------------------ closing-section ------------------------------->
+    <div class="contact-map">
+      <iframe
+        src="https://www.google.com/maps?q=39.1605200,-8.7876082&z=13&output=embed"
+        width="100%"
+        height="400"
+        style="border:0;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+</section>
 
-  <section class="closing-section">
-   
-    <img
+<!-- Closing section -->
+<section class="closing-section">
+  <img
     src="images/home/bottomImage.png"
-    alt="Dog resting comfortably"
->
-  
-    <div class="closing-text">
-      <h2>
-        understanding dogs, enriching lives,
-        building harmony together.
-      </h2>
-  
-      <p>
-        discover your dog's true language
-      </p>
-    </div>
-  
-  </section>
+    [alt]="'home.closing.imageAlt' | translate"
+  >
 
-
-   
+  <div class="closing-text">
+    <h2>{{ 'home.closing.title' | translate }}</h2>
+    <p>{{ 'home.closing.subtitle' | translate }}</p>
+  </div>
+</section>
+```
