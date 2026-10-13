@@ -1,28 +1,28 @@
+
 <section class="gallery-page">
 
-    <div class="gallery-header">
-      <h1>memories of friends</h1>
-  
-      <p>
-        ... more soon. Gallery in construction..
-      </p>
+  <div class="gallery-header">
+    <h1>{{ 'gallery.title' | translate }}</h1>
+
+    <p>
+      {{ 'gallery.description' | translate }}
+    </p>
+  </div>
+
+  <div class="gallery-grid">
+
+    <div class="gallery-item">
+      <img src="images/gallery/dog-01.jpg" [alt]="'gallery.dogAlt' | translate">
     </div>
-  
-  
-    <div class="gallery-grid">
-  
-        <div class="gallery-item">
-            <img src="images/gallery/dog-01.jpg" alt="Dog">
-          </div>
-          
-          <div class="gallery-item">
-            <img src="images/gallery/dog-02.jpg" alt="Dog">
-          </div>
-          
-          <div class="gallery-item">
-            <img src="images/gallery/dog-03.jpg" alt="Mafalda with a dog">
-          </div>
-  
+
+    <div class="gallery-item">
+      <img src="images/gallery/dog-02.jpg" [alt]="'gallery.dogAlt' | translate">
     </div>
-  
-  </section>
+
+    <div class="gallery-item">
+      <img src="images/gallery/dog-03.jpg" [alt]="'gallery.mafaldaDogAlt' | translate">
+    </div>
+
+  </div>
+
+</section>

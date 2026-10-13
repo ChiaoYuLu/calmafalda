@@ -8,6 +8,13 @@
     "links": "Links",
     "contact": "Contact me"
   },
+  
+"gallery": {
+  "title": "Memories of Friends",
+  "description": "... more soon. Gallery under construction.",
+  "dogAlt": "Dog",
+  "mafaldaDogAlt": "Mafalda with a dog"
+},
 
 "about": {
   "title": "Mafalda Amaro",

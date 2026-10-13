@@ -8,6 +8,13 @@
     "contact": "Contactos"
   },
   
+"gallery": {
+  "title": "Memórias de Amigos",
+  "description": "... em breve. Galeria em construção.",
+  "dogAlt": "Cão",
+  "mafaldaDogAlt": "Mafalda com um cão"
+},
+
 "about": {
   "title": "Mafalda Amaro",
   "imageAlt": "Mafalda Amaro com um cão",

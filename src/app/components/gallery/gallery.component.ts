@@ -1,11 +1,12 @@
+
 import { Component } from '@angular/core';
+import { TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-gallery',
-  imports: [],
+  standalone: true,
+  imports: [TranslatePipe],
   templateUrl: './gallery.component.html',
   styleUrl: './gallery.component.css'
 })
-export class GalleryComponent {
-
-}
+export class GalleryComponent {}
