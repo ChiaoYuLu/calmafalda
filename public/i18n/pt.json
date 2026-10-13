@@ -7,9 +7,45 @@
     "links": "Ligações",
     "contact": "Contactos"
   },
-  "about": {
-    "title": "Mafalda Amaro"
-  },
+  
+"about": {
+  "title": "Mafalda Amaro",
+  "imageAlt": "Mafalda Amaro com um cão",
+  "intro1a": "Sou uma pessoa fascinada por cães e obtive o",
+  "school": "Nordic Education Centre for Ethical Dog Training",
+  "intro1b": ", que me atribuiu o Certificado de Treinadora Profissional de Cães com Métodos Éticos, baseado em",
+  "approach1": "The Calming Signals Approach®",
+  "and": "e",
+  "approach2": "The Caring Human Code®",
+  "intro2": "Atualmente, continuo a estudar nesta escola para obter o diploma de especialista em comportamento canino e estou também a frequentar um curso do Dr. Amber Batson sobre o comportamento dos cães jovens.",
+  "intro3": "Seguindo métodos de treino éticos e sem recurso a técnicas aversivas, uma comunicação baseada na ciência e a criação de ambientes enriquecedores, procuro ajudar os cães e as suas famílias a alcançar a harmonia através da compreensão e do respeito.",
+  "intro4": "Até há pouco tempo, também era voluntária regular num abrigo local, onde me dedicava a reduzir o stress dos cães e a dar-lhes tempo para escolher, explorar e aprender a lidar com o ambiente que os rodeia.",
+  "intro5a": "Esta é uma jornada que continua, um sonho de vida!",
+  "intro5b": "Estou pronta para partilhar aquilo que aprendi até agora",
+  "intro5c": "e convidá-lo a descobrir pormenores fascinantes",
+  "intro5d": "que muitas vezes passam despercebidos e que podem fazer toda a diferença.",
+  "classesIntro": "Estas são algumas das formações que concluí em 2025:",
+  "class1a": "Masterclass de Monica Allaire-McMahon:",
+  "class1b": "Como a Dor ou o Desconforto Podem Afetar o Seu Cão",
+  "class2a": "Masterclass de Kateryna Volkova:",
+  "class2b": "A Investigação sobre o Shake Off",
+  "summitIntro": "Participar na edição de 2025 do",
+  "summitTitle": "Advanced Annual Online Summit Beyond Training:",
+  "summitSubtitle": "Understanding the Dog Inside and Out",
+  "summitDescription": "foi uma experiência muito enriquecedora. Foi um enorme prazer aprender com os seguintes oradores:",
+  "speaker1a": ", Understand Animals, Reino Unido:",
+  "speaker1b": "O Cérebro Emocional: Como o Stress e o Corpo Interagem",
+  "speaker2a": ", Galen Myotherapy, Reino Unido:",
+  "speaker2b": "O Corpo Comunica: Utilizar a Escala Galen Comfort para Compreender o Comportamento",
+  "closing": "Quero continuar a aprender sobre muitas coisas, mas sobretudo sobre cães ;)",
+  "certificateAlt": "Certificado de Treinadora Profissional de Cães com Métodos Éticos",
+  "level3Alt": "Qualificação acreditada de nível 3",
+  "schoolAlt": "Logótipo do Nordic Education Centre for Ethical Dog Training",
+  "mapAlt": "Mapa-mundo",
+  "languagesTitle": "Idiomas",
+  "dogLanguage": "Linguagem corporal dos cães:",
+  "languagePreference": "Para uma melhor comunicação, dê preferência ao inglês."
+},
   "home": {
     "hero": {
       "title": "Uma Vida em Harmonia com os Cães",

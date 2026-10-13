@@ -8,9 +8,47 @@
     "links": "Links",
     "contact": "Contact me"
   },
-  "about": {
-    "title": "Mafalda Amaro"
-  },
+
+"about": {
+  "title": "Mafalda Amaro",
+  "imageAlt": "Mafalda Amaro with a dog",
+  "intro1a": "I am a person fascinated by dogs who has received the",
+  "school": "Nordic Education Centre for Ethical Dog Training",
+  "intro1b": "'s Certificate of Professional Ethical Dog Trainer by",
+  "approach1": "The Calming Signals Approach®",
+  "and": "and",
+  "approach2": "The Caring Human Code®",
+  "intro2": "I am currently studying at this school to obtain my diploma as a dog behaviour specialist and following a course by Dr. Amber Batson on Juvenile Dog Behaviour.",
+  "intro3": "Following ethical, force-free training methods, science-based communication and enriched environments, I aim to help dogs and their caregivers achieve harmony through understanding and respect.",
+  "intro4": "Until recently, I was also a regular volunteer at the local shelter, where I focused on reducing stress levels and giving dogs time to make choices, explore and learn to cope with their surroundings.",
+  "intro5a": "This is a journey to be continued, a lifelong dream!",
+  "intro5b": "I am ready to share what I have learnt so far",
+  "intro5c": "and invite you to discover fascinating details",
+  "intro5d": "that people often miss and that can make all the difference.",
+  "classesIntro": "These are some of the classes I completed in 2025:",
+  "class1a": "Monica Allaire-McMahon's Masterclass:",
+  "class1b": "How Pain or Discomfort May Be Affecting Your Dog",
+  "class2a": "Kateryna Volkova's Masterclass:",
+  "class2b": "The Shake Off Investigation",
+  "summitIntro": "Participating in the 2025",
+  "summitTitle": "Advanced Annual Online Summit Beyond Training:",
+  "summitSubtitle": "Understanding the Dog Inside and Out",
+  "summitDescription": "was a very enlightening experience. It was a great pleasure to learn from the speakers:",
+  "speaker1a": ", Understand Animals, UK:",
+  "speaker1b": "The Emotional Brain: How Stress and the Body Interact",
+  "speaker2a": ", Galen Myotherapy, UK:",
+  "speaker2b": "The Body Talks: Using the Galen Comfort Scale to Understand Behaviour",
+  "closing": "My wish is to keep learning about many things, but especially about dogs ;)",
+  "certificateAlt": "Professional Ethical Dog Trainer certificate",
+  "level3Alt": "Accredited Level 3 qualification",
+  "schoolAlt": "Nordic Education Centre for Ethical Dog Training logo",
+  "mapAlt": "World map",
+  "languagesTitle": "Languages",
+  "dogLanguage": "Dog body language:",
+  "languagePreference": "For better communication, English is the preferred language."
+},
+
+
   "home": {
     "hero": {
       "title": "Harmonious Living with Dogs",
