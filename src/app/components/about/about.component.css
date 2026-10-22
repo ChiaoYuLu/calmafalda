@@ -85,6 +85,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .certificate-container img {
@@ -93,6 +94,7 @@
   max-width: 100%;
   height: auto;
   border-radius: 2px;
+  
 }
 
 
